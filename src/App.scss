@@ -1,0 +1,68 @@
+
+
+/* Styles set when in dark mode */
+body.dark-mode {
+  background-color: #232323;
+  color: #dfdfdf; 
+  .dark-mode-toggle > button {
+    color: #999;
+    &:last-child {
+      color: #ffffff;
+    }
+  }
+  .cardCustom {
+    background-color: #232323;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+.cardCustom.open {
+  border-radius: 0;
+}
+.cardCustom.hover,
+.cardCustom:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+}
+
+.dark-mode-toggle {
+  display: flex;
+  margin: 0 auto;
+  & > button {
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    color: #ffe600;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    &:last-child {
+      color: #666;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.toggle-control {
+  position: relative;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+}
+
+.dmcheck {
+  label {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: absolute;
+    left: 2px;
+    background: #fff;
+    opacity: 0.9;
+    background-color: #f6f6f6;
+  }
+}
