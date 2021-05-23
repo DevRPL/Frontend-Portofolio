@@ -16,6 +16,7 @@ import Toggle from './component/Toggle.jsx';
 import "./App.scss";
 import Softkill from './component/Softkill.jsx';
 import About from './component/About.jsx';
+import Content from './component/Content.jsx';
 import YouTube from './component/YouTube.jsx';
 import Feedback from './component/Feedback.jsx';
 
@@ -59,6 +60,14 @@ function App() {
 							<Toggle darkMode={darkMode} setDarkMode={setDarkMode}/>
 						</Navigation>
 						<Portfolio />
+						<div style={{ padding: '25px' }}></div>
+						<Footer />
+					</Route>
+					<Route path="/content">
+						<Navigation>
+							<Toggle darkMode={darkMode} setDarkMode={setDarkMode}/>
+						</Navigation>
+						<Content />
 						<div style={{ padding: '25px' }}></div>
 						<Footer />
 					</Route>

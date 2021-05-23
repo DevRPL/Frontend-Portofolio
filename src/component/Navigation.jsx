@@ -40,6 +40,9 @@ class Navigation extends Component {
 							<MDBNavItem className="ml-2" active={this.isActive('/portfolio')}>
 								<MDBNavLink to="/portfolio">Portfolio</MDBNavLink>
 							</MDBNavItem>
+							<MDBNavItem className="ml-2" active={this.isActive('/content')}>
+								<MDBNavLink to="/content">Content</MDBNavLink>
+							</MDBNavItem>
 							<MDBNavItem className="ml-2" active={this.isActive('/feedback')}>
 								<MDBNavLink to="/feedback">Feedback</MDBNavLink>
 							</MDBNavItem>
