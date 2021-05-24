@@ -25,7 +25,7 @@ class Content extends Component
 
     getDataContent = async () => {
         this.showLoading();
-        await axios.get('https://production-backend-portofolio.dev/content')
+        await axios.get('https://production-backend-portofolio.herokuapp.com/content')
             .then(result => {
                 this.hideLoading();
                 this.setState({ response: result.data, loading: false });
