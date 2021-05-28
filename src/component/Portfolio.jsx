@@ -27,7 +27,7 @@ class Portfolio extends Component
 
     getDataPortofolio = async () => {
         this.showLoading();
-        await axios.get('https://production-backend-portofolio.herokuapp.com/todo/portofolio')
+        await axios.get('https://production-backend-portofolio.herokuapp.com/backend/portofolio')
             .then(result => {
                 this.hideLoading();
                 this.setState({ response: result.data, loading: false });

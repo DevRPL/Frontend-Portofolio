@@ -20,7 +20,7 @@ class YouTube extends Component {
 
     getDataProject = async () => {
         this.showLoading(true);
-        await axios.get('https://production-backend-portofolio.herokuapp.com/todo/personal-product-development')
+        await axios.get('https://production-backend-portofolio.herokuapp.com/backend/personal-product-development')
             .then(result => {
                 this.showLoading(false);
                 this.setState({ response: result.data, loading: false });
