@@ -15,7 +15,7 @@ const About = () => {
                 Saya suka menulis code clean dan mudah dimaintainable. */}
                 Hallo nama saya Jamil, Saya telah bekerja sebagai software developer selama satu tahun.<br></br>
                 Saya terbiasa menggunakan framework laravel, dan saya suka menulis code clean dan mudah dimaintainable.<br></br>
-                Saat ini saya tertarik dan mempelajari tentang react js. 
+                Saat ini saya tertarik dan mempelajari salah satu library javascript untuk frontend development. 
             </section>
         </div>
     </MDBContainer>
