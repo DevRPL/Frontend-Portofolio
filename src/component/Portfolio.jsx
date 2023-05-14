@@ -5,12 +5,23 @@ import { MDBCol, MDBContainer, MDBRow } from 'mdbreact';
 import Title from './Title.jsx';
 import LazyLoad from 'react-lazyload';
 import Loading from './Loading.jsx';
+import { Button, Modal } from 'react-bootstrap';
 
 class Portfolio extends Component
 {
     state = {
         response: [],
-        loading: false
+        loading: false,
+        show: false,
+        selectedImage: null,
+    }
+
+    handleClose = () => {
+      this.setState({ show: false });
+    }
+  
+    handleShow = (image) => {
+      this.setState({ show: true, selectedImage: image });
     }
 
     componentDidMount() {
@@ -52,7 +63,7 @@ class Portfolio extends Component
                         :
                         data.response.map(result => {
                             return (
-                                <MDBCol key={result.id} md='4' className="pt-3">
+                                <MDBCol key={result.id} md='4' className="pt-3" onClick={() => this.handleShow(result.image)} style={{ cursor: 'pointer' }}>
                                     <LazyLoad>
                                         <Card title={result.title} image={result.image} description={result.description}/>
                                     </LazyLoad>
@@ -60,6 +71,16 @@ class Portfolio extends Component
                             )
                         })
                     }
+                  <Modal show={this.state.show} onHide={this.handleClose} size="xl">
+                    <Modal.Body>
+                      <img src={this.state.selectedImage} alt="" style={{ maxWidth: '100%' }} />
+                    </Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="primary" onClick={this.handleClose}>
+                        Close
+                      </Button>
+                    </Modal.Footer>
+                  </Modal>
                 </MDBRow>
             </MDBContainer>
          </div>

@@ -50,7 +50,6 @@ function App() {
 						<Navigation>
 							<Toggle darkMode={darkMode} setDarkMode={setDarkMode}/>
 						</Navigation>
-						{/* <Skill /> */}
 						<Skill />
 						<div style={{ padding: '25px' }}></div>
 						<Footer />
