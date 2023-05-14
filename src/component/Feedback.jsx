@@ -9,7 +9,8 @@ class Feedback extends Component {
         name: '',
         title: '',
         description: '',
-        status: false
+        status: false,
+        errors: {}
     }
     
     postFeedback = () => {
@@ -39,6 +40,31 @@ class Feedback extends Component {
         this.setState({description: event.target.value});
     }
 
+
+    validateForm = () => {
+        let errors = {};
+        let isValid = true;
+    
+        if (!this.state.name) {
+          isValid = false;
+          errors.name = 'Nama harus diisi';
+        } 
+        
+        if (!this.state.title) {
+            isValid = false;
+            errors.title = 'Title harus diisi';
+        }
+        
+        if (!this.state.description) {
+            isValid = false;
+            errors.description = 'Description harus diisi';
+        }
+
+        this.setState({ errors: errors });
+
+        return isValid;
+    };
+
     resetForm = () => {
         this.setState({
             name: '',
@@ -50,10 +76,13 @@ class Feedback extends Component {
 
     handlerSubmit = (event) => {
         event.preventDefault()
-        this.postFeedback()
-        this.setState({
-            status: true
-        });
+        const isValid = this.validateForm();
+        if (isValid) {
+            this.postFeedback()
+            this.setState({
+                status: true
+            });
+        }
     }
 
     render(){
@@ -75,8 +104,9 @@ class Feedback extends Component {
                             name="name"
                             type="text"
                             value={this.state.name} 
-                            onChange={this.changeNameHandler}
+                            onChange={this.changeNameHandler} 
                         />
+                        {this.state.errors.name &&<code>{this.state.errors.name}</code>}
                         <MDBInput
                             label="Title"
                             group
@@ -86,6 +116,7 @@ class Feedback extends Component {
                             value={this.state.title} 
                             onChange={this.changeTitleHandler}
                         />
+                        {this.state.errors.title &&<code>{this.state.errors.title}</code>}
                         <MDBInput
                             label="Description"
                             group
@@ -96,7 +127,9 @@ class Feedback extends Component {
                             value={this.state.description} 
                             onChange={this.changeDescriptionHandler}
                         />
-                        <div className="text-center mb-3">
+                        {this.state.errors.description &&<code>{this.state.errors.description}</code>}
+                        
+                        <div className="text-center">
                             <MDBBtn
                                 type="submit"
                                 gradient="blue"
