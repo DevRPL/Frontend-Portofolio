@@ -43,9 +43,9 @@ class Navigation extends Component {
 							<MDBNavItem className="ml-2" active={this.isActive('/content')}>
 								<MDBNavLink to="/content">Content</MDBNavLink>
 							</MDBNavItem>
-							<MDBNavItem className="ml-2" active={this.isActive('/feedback')}>
+							{/* <MDBNavItem className="ml-2" active={this.isActive('/feedback')}>
 								<MDBNavLink to="/feedback">Feedback</MDBNavLink>
-							</MDBNavItem>
+							</MDBNavItem> */}
 							<MDBNavItem className="ml-2">
 								<MDBFormInline>
 									<div className="md-form my-1">
