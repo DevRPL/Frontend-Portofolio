@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="pt-4"></div>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          © { new Date().getFullYear() } Made with &hearts; using  <MDBIcon fab icon="laravel" /> <MDBIcon fab icon="react" /> 
+          © 2014 - { new Date().getFullYear() } Made with &hearts; using  <MDBIcon fab icon="laravel" /> <MDBIcon fab icon="react" /> 
         </MDBContainer>
       </div>
     </MDBFooter>
