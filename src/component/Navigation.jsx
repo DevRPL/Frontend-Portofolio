@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBContainer,
-	MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline } from "mdbreact";
+	MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline, MDBIcon } from "mdbreact";
 class Navigation extends Component {
 	state = {
 		isOpen: false
@@ -23,7 +23,7 @@ class Navigation extends Component {
 				<MDBNavbar color="primary-color-dark" dark expand="lg">
 					<MDBContainer>
 						<MDBNavbarBrand>
-						<strong className="white-text">Portofolio</strong>
+						<MDBNavbarBrand href='/' className="white-text"><strong className="white-text">Portofolio</strong></MDBNavbarBrand>
 						</MDBNavbarBrand>
 						<MDBNavbarToggler onClick={this.toggleCollapse} />
 						<MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -56,9 +56,9 @@ class Navigation extends Component {
 								</MDBFormInline>
 							</MDBNavItem>
 						</MDBNavbarNav>
-						</MDBCollapse>
-					</MDBContainer>
-				</MDBNavbar>
+					</MDBCollapse>
+				</MDBContainer>
+			</MDBNavbar>
 			</header>
 			);
 		}
