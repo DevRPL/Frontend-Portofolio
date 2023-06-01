@@ -13,7 +13,7 @@ const About = () => {
                 {/* Hallo nama saya Jamil, Saya telah bekerja sebagai web developer selama satu tahun dan telah mengerjakan aplikasi berbasis web. 
                 Sebagian besar aplikasi yang dibuat menggunakan Framework Laravel.
                 Saya suka menulis code clean dan mudah dimaintainable. */}
-                Hallo nama saya Jamil, Saya telah bekerja sebagai software developer selama satu tahun.<br></br>
+                Hallo nama saya Jamil, Saya telah bekerja sebagai software developer lebih selama satu tahun.<br></br>
                 Saya terbiasa menggunakan framework laravel, dan saya suka menulis code clean dan mudah dimaintainable.<br></br>
                 Saat ini saya tertarik dan mempelajari salah satu library javascript untuk frontend development. 
             </section>

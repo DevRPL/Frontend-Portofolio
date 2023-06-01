@@ -50,12 +50,11 @@ class CardSkill extends Component {
                                 <MDBCol md='3' className="pt-3" key={result.id}>
                                     <div className="cardCustom text-center">
                                         <div className="card-body">
-                                        <a target="blank" href={result.url} >
+                                        <a target="_blank" href={result.url} rel="noreferrer noopener" >
                                             <div style={{ maxheight: '35px' }}>
                                                 <img src={result.image} alt={result.id}/>
                                             </div>
                                             <h6 className="pt-4">{result.experience} experince</h6>
-                                            
                                         </a>
                                         </div>
                                     </div>

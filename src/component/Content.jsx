@@ -56,7 +56,7 @@ class Content extends Component
                                     </div>
                                 </div>
                                 <p className="mb-2 font-weight-bold">{ result.title }</p>   
-                                    <a target="blank" className="btn btn-indigo btn-sm mb-3 waves-effect waves-light" href={result.url} >More <i className="fas fa-arrow-right"></i></a>
+                                    <a target="_blank" className="btn btn-indigo btn-sm mb-3 waves-effect waves-light" href={result.url} rel="noreferrer noopener">More <i className="fas fa-arrow-right"></i></a>
                                 </div>
                                 )
                             })
