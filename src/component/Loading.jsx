@@ -9,7 +9,7 @@ const Loading = () => {
                 <div className="spinner-grow fast" role="status">
                     <span className="visually-hidden sr-only">Loading...</span>
                 </div>
-                <strong className="ml-1"> The App Is Currently Under Maintenance...</strong>
+                <strong className="ml-1"> Please Wait..</strong>
             </div>
         </div>
     </MDBContainer>
