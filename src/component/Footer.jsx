@@ -21,19 +21,19 @@ const Footer = () => {
           <MDBCol md="4">
             <h4 className="title pt-3 font-weight-bold">CV</h4>
             <div className="pt-5">
-                <button title="Download Certificate" className="btn-white btn-outline-white btn Ripple-parent" disabled>Download CV</button>
+                <a target="blank" className="btn-white btn-outline-white btn Ripple-parent" href='https://bit.ly/43SNKpC' >Download CV</a>
             </div>
           </MDBCol>
           <MDBCol md="4">
             <h4 className="title pt-3 font-weight-bold">GITHUB</h4>
             <div className="pt-5">
-                <button title="Download Certificate" className="btn-white btn-outline-white btn Ripple-parent" disabled>Github</button>
+            <a target="blank" title="Download Certificate" className="btn-white btn-outline-white btn Ripple-parent" href='https://github.com/DevRPL' >Github</a>
             </div>
           </MDBCol>
           <MDBCol md="4">
             <h4 className="title pt-3 font-weight-bold">CERTIFICATE</h4>
             <div className="pt-5">
-                <button  title="Download Certificate" className="btn-white btn-outline-white btn Ripple-parent" disabled>Download Certificate</button>
+                <a target="blank" className="btn-white btn-outline-white btn Ripple-parent" href='https://bit.ly/3XaeoYK' >Download Certificate</a>
             </div>
           </MDBCol>
         </MDBRow>
