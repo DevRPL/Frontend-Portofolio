@@ -1,0 +1,138 @@
+[
+{
+"id": 1,
+"title": "Aplikasi Koprasi Simpan Pinjam",
+"image": "assets/img/karya/koperasi.jpg",
+"description": "Php Native + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 2,
+"title": "Check Device Laptop",
+"image": "assets/img/karya/device.png",
+"description": "Vb.Net + PHP + Firebase + Sqlite",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 3,
+"title": "Operation Integrasi Marketplace",
+"image": "assets/img/karya/op.png",
+"description": "Laravel 5.7 + Mysql + Develop Team",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 4,
+"title": "Dpkp Sim Cipta Karya",
+"image": "assets/img/karya/bangkim.png",
+"description": "Codeigniter 2.2.6 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 5,
+"title": "Laravel Mini Forum Programming",
+"image": "assets/img/karya/forum.png",
+"description": "Laravel 5.6 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 6,
+"title": "Aplikasi Operation Klinik",
+"image": "assets/img/karya/nkdc.png",
+"description": "Laravel 5.8 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 7,
+"title": "Demo Aplikasi Management Asset",
+"image": "assets/img/karya/asset.png",
+"description": "Laravel 5.8 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 8,
+"title": "Demo Aplikasi Monitoring Order Card",
+"image": "assets/img/karya/dev.jpg",
+"description": "Laravel 6.0 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 9,
+"title": "Any Desc",
+"image": "assets/img/karya/any.jpeg",
+"description": "Laravel 6.0 + Mmsql / Sql Server",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 10,
+"title": "Aplikasi Laundry",
+"image": "assets/img/karya/laundrys.png",
+"description": "Laravel 6.0 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 11,
+"title": "Frontend Layanan Public Desa",
+"image": "assets/img/karya/antrian.png",
+"description": "React Bootstrap",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 12,
+"title": "Marketing Of Year",
+"image": "assets/img/karya/moy.png",
+"description": "Laravel 6.0 + Sql Server",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 13,
+"title": "Inventory Control",
+"image": "assets/img/karya/inventory.png",
+"description": "Laravel 6.0 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 14,
+"title": "Backend Kredit Kendaraan",
+"image": "assets/img/karya/backend.png",
+"description": "Laravel 7.0 + mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 15,
+"title": "Frontend Kredit Kendaraan",
+"image": "assets/img/karya/frontend.png",
+"description": "Laravel 7.0 + mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 16,
+"title": "Personal Framework Management Project",
+"image": "assets/img/karya/framework-personal.png",
+"description": "Laravel 8.0 + Mysql",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 17,
+"title": "Automatic download and satellite data processing",
+"image": "assets/img/karya/vb.png",
+"description": "VB.net + Ms Access",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+}
+]

@@ -1,0 +1,114 @@
+[
+{
+"id": 1,
+"image": "assets/img/png/Php.png",
+"url": "https://www.php.net",
+"experience": "3 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 2,
+"image": "assets/img/png/Laravel.png",
+"url": "https://laravel.com",
+"experience": "3 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 3,
+"image": "assets/img/png/Ci.png",
+"url": "https://codeigniter.com",
+"experience": "2 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 4,
+"image": "assets/img/png/js.png",
+"url": "https://www.w3schools.com/Js",
+"experience": "2 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 5,
+"image": "assets/img/png/jquery.png",
+"url": "https://jquery.com",
+"experience": "2 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 6,
+"image": "assets/img/png/ReactJs.png",
+"url": "https://legacy.reactjs.org",
+"experience": "3 months",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 7,
+"image": "assets/img/png/restApi.png",
+"url": "https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages",
+"experience": "1 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 8,
+"image": "assets/img/png/css.png",
+"url": "https://www.w3schools.com/Css",
+"experience": "3 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 9,
+"image": "assets/img/png/bootstrap.png",
+"url": "https://getbootstrap.com/docs/5.2/getting-started/introduction",
+"experience": "3 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 10,
+"image": "assets/img/png/mysql.png",
+"url": "https://www.mysql.com",
+"experience": "3 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 11,
+"image": "assets/img/png/mmsql.png",
+"url": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+"experience": "6 months",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 12,
+"image": "assets/img/png/git.png",
+"url": "https://git-scm.com",
+"experience": "3 years",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 13,
+"image": "assets/img/png/nginx.png",
+"url": "https://nginx.org/en",
+"experience": "6 months",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+},
+{
+"id": 14,
+"image": "assets/img/png/vbNet.png",
+"url": "https://www.tutorialspoint.com/vb.net/index.htm",
+"experience": "8 months",
+"created_at": "2024-10-25T02:39:18.000000Z",
+"updated_at": "2024-10-25T02:39:18.000000Z"
+}
+]

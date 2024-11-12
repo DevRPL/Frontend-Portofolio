@@ -21,7 +21,7 @@ const Footer = () => {
           <MDBCol md="4">
             <h4 className="title pt-3 font-weight-bold">CV</h4>
             <div className="pt-5">
-                <a target="blank" className="btn-white btn-outline-white btn Ripple-parent" href='https://bit.ly/43SNKpC' >Download CV</a>
+                <a target="blank" className="btn-white btn-outline-white btn Ripple-parent" href='https://bit.ly/3CiBBl2' >Download CV</a>
             </div>
           </MDBCol>
           <MDBCol md="4">

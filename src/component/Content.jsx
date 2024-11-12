@@ -25,7 +25,8 @@ class Content extends Component
 
     getDataContent = async () => {
         this.showLoading();
-        await axios.get('https://reversed-counselors.000webhostapp.com/backend/content.php')
+        // await axios.get('https://reversed-counselors.000webhostapp.com/backend/content.php')
+        await axios.get('./data/content.json')
             .then(result => {
                 this.hideLoading();
                 this.setState({ response: result.data, loading: false });
